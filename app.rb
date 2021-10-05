@@ -18,5 +18,5 @@ get '/public/news' do
 end
 
 get '/cat' do
-  "<img src='https://i.imgur.com/jFaSxym.png' style='border: 5px solid red; border-style: dashed'>"
+  erb(:index)
 end
