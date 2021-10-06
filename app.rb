@@ -27,6 +27,6 @@ get '/cat-form' do
 end
 
 post '/named-cat' do
-  @name = params[:name]
+  @cat = params[:cat]
   erb(:index)
 end
